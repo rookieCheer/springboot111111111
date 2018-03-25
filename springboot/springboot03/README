@@ -1,0 +1,8 @@
+上传文件：
+           单文件上传文件地址 项目所在地平级 file文件夹下面
+           总结：
+            遇见问题 ：org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (23061171) exceeds the configured maximum (10485760)
+            原因： 上传文件过大 springboot默认文件大小1M
+            解决办法：在 application.properties 中设置上传文件的参数即可
+                    spring.http.multipart.maxFileSize=100Mb
+                    spring.http.multipart.maxRequestSize=100Mb

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    action 跳转地址 <br/>
+    表单中enctype="multipart/form-data"的意思，是设置表单的MIME编码。默认情况，这个编码格式是application/x-www-form-urlencoded，不能用于文件上传；只有使用了multipart/form-data，才能完整的传递文件数据，进行下面的操作.<br/>
+    method 请求方法 post<br/>
+    <form action="/testupload" enctype="multipart/form-data" method="post" >
+        图片：<input type="file" name="file"/>
+              <input type="submit" value="上传"/>
+    </form>
+</body>
+</html>

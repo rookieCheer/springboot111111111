@@ -1,0 +1,11 @@
+环境：
+        jdk8
+        maven
+        idea开发工具
+        系统wind7
+        postman测试工具
+运行个个文件中的 *Application文件中的main方法即可
+
+springboot01         初始文件
+springboot02         各种返回到前端页面的类型
+springboot03         文件上传   单文件   多文件
