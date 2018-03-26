@@ -80,10 +80,4 @@ public class FileController {
         //返回json
         return "上传失败！";
     }
-
-   /* @RequestMapping(value="/testupload1", method = RequestMethod.POST)
-    @ResponseBody
-    public String uploadImg1(){
-
-    }*/
 }
